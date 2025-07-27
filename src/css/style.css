@@ -219,20 +219,3 @@ html {
 .principal{
     padding: 10px 10px;
 }
-
-
-
-
-.container-33 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.over {
-    width: 200px;
-    height: 110px;
-    border: 1px solid black;
-    display: block;
-    overflow: hidden;
-}
