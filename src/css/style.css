@@ -105,7 +105,8 @@ html {
 }
 .estatistica {
     background-color: var(--purple-100);
-    width: 100%;
+    width: 200px;
+    overflow: hidden;
 }
 .estatistica .titulo {
     font-size: 26px;
@@ -118,11 +119,10 @@ html {
 .estatistica img {
     max-width: 100%;
     padding: 10px;
-    display: none;
+
 }
 .estatistica img {
     margin-left: 75px;
-    display: block;
 }
 .using-al {
     background-color: var(--yellow-500);
@@ -192,16 +192,16 @@ html {
 }
 .calendario {
     background-color: var(--yellow-500);
-    width: auto;
-    height: auto;
     font-size: 28px;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
 }
 .calendario p{
     margin: 15px;
 }
 .calendario img {
     width: 100%;
-    height: auto;
     padding: 15px;
 }
 /* div {
@@ -218,4 +218,21 @@ html {
 
 .principal{
     padding: 10px 10px;
+}
+
+
+
+
+.container-33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over {
+    width: 200px;
+    height: 110px;
+    border: 1px solid black;
+    display: block;
+    overflow: hidden;
 }
